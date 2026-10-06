@@ -1,0 +1,14 @@
+{
+  "name": "orders-api-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small orders API used to demonstrate the CodeITronics AI PR Reviewer.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
